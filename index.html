@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/remixicon.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="title">
+            <h2>Online Notepad</h2>
+        </div>
+        <div class="buttons">
+            <div class="dropdown">
+                <button id="dropdownButton">
+                    <span>File</span>
+                <i class="ri-arrow-down-s-fill"></i>
+                </button>
+                <div class="dropdown-content">
+                      <div class="b1">
+                        <i class="ri-file-add-line"></i>
+                        <span>New Document</span>
+                      </div>
+                      <div class="b2">
+                        <div>
+                            <i class="ri-save-line"></i>
+                            <span>Save</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+S</span>
+                        </div>
+                       
+                      </div>
+                      <div class="b3">
+                        <div>
+                            <i class="ri-file-search-line"></i>
+                        <span>Open...</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+O</span>
+                        </div>
+                        
+                      </div>
+                      <div class="b4">
+                        <div>
+                            <i class="ri-printer-line"></i>
+                           <span>Print</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+P</span>
+
+                        </div>
+                        
+                      </div>
+                        
+                    
+                </div>
+            </div>
+            <div class="dropdown">
+                <button id="dropdownButton">
+                    <span>Edit</span>
+                <i class="ri-arrow-down-s-fill"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="E1">
+                        <div>
+                            <i class="ri-arrow-go-back-line"></i>
+                            <span>Undo</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+Z</span>
+                        </div>
+                       
+                      </div>
+                      <div class="E2">
+                        <div>
+                            <i class="ri-arrow-go-forward-line"></i>
+                            <span>Redo</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+Y</span>
+                        </div>
+                       
+                      </div>
+                      <hr size="1">
+                      <div class="E3">
+                        <div>
+                            <i class="ri-scissors-cut-line"></i>
+                            <span>Cut</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+X</span>
+                        </div>
+                       
+                      </div>
+                      <div class="E4">
+                        <div>
+                            <i class="ri-file-copy-line"></i>
+                            <span>Copy</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+C</span>
+                        </div>
+                       
+                      </div>
+                      <div class="E5">
+                        <div>
+                            <i class="ri-file-copy-fill"></i>
+                            <span>Paste</span>
+
+                        </div>
+                        <div>
+                            <span style="position: relative;left: 20px;">Ctrl+V</span>
+                        </div>
+                       
+                      </div>
+                      <hr size="1">
+                      <div class="select">
+                          <div>
+                            <h4 style="position: relative;right: 13px;">Select All</h4>
+                          </div>
+                          <div>
+                            <span style="position: relative;left: 47px;">Ctrl+A</span>
+                          </div>
+                      </div>
+                      
+                    <hr size="1" style="color: #444;">
+
+                    <div class="find-replace">
+                        <div>
+                            <h4>Find and Replace</h4>
+                        </div>
+                        <div>
+                          <span>Ctrl+F</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button id="dropdownButton">
+                    <span>Insert</span>
+                <i class="ri-arrow-down-s-fill"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="date-time">
+                        <span style="margin-left: 30px;">Date/Time</span>
+                        <i class="ri-arrow-right-s-fill"></i>
+
+                    </div>
+                        
+                    <hr size="1">
+
+                    <div class="date-time-2">
+                        <div class="special">
+                            <i class="ri-character-recognition-line"></i>
+                        <span>Special Character</span>
+
+                        </div>
+ 
+                        <div class="special-1">
+                            <p>Nonbreaking Space</p>
+
+                        </div>
+                        
+                       
+                    </div>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button id="dropdownButton">
+                    <span>View</span>
+                <i class="ri-arrow-down-s-fill"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="view1">
+                        <div>   
+                            <h2>Fullscreen</h3>
+                            </div>
+                        <div>
+                            <p class="ctrl">Ctrl+Shift+F</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button id="dropdownButton">
+                    <span>Help</span>
+                <i class="ri-arrow-down-s-fill"></i>
+                </button>
+                <div class="dropdown-content">
+                    <h3>Shortcuts</h3>
+                    <hr size="1" style="color: #444;">
+                    <h3>Homepage</h3>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="files">
+                <div class="tooltip">
+                    <button>
+                    <i class="ri-file-add-line"></i>
+                </button>
+             <span class="tooltiptext">New document</span>
+                </div>
+
+                <div class="tooltip">
+                    <button>
+                        <i class="ri-save-line"></i>
+                </button>
+             <span class="tooltiptext">Open...</span>
+                </div>
+
+                <div class="tooltip">
+                    <button>
+                        <i class="ri-file-search-line"></i>
+                </button>
+             <span class="tooltiptext">Save</span>
+                </div>
+
+                <div class="tooltip">
+                    <button>
+                        <i class="ri-printer-line"></i>
+                </button>
+             <span class="tooltiptext">Print</span>
+                </div>
+
+              </div>
+
+                <div class="cut-copy-paste">
+
+                    <div class="tooltip">
+                        <button>
+                            <i class="ri-scissors-cut-line"></i>
+                    </button>
+                 <span class="tooltiptext">Cut</span>
+                    </div>
+
+                    <div class="tooltip">
+                        <button>
+                            <i class="ri-file-copy-line"></i>
+                    </button>
+                 <span class="tooltiptext">Copy</span>
+                    </div>
+
+                    <div class="tooltip">
+                        <button>
+                            <i class="ri-file-copy-fill"></i>
+                    </button>
+                 <span class="tooltiptext">Paste</span>
+                    </div>
+                    
+                </div>
+                <div class="redo-undo">
+
+                    <div class="tooltip">
+                        <button>
+                            <i class="ri-arrow-go-back-line"></i>
+                    </button>
+                 <span class="tooltiptext">Undo</span>
+                    </div>
+
+                    <div class="tooltip">
+                        <button>
+                            <i class="ri-arrow-go-forward-line"></i>
+                    </button>
+                 <span class="tooltiptext">Redo</span>
+                    </div>
+
+                </div>
+
+                <div class="find">
+                    
+                    <div class="tooltip">
+                        <button>
+                            <i class="ri-find-replace-line"></i>
+                        </button>
+                 <span class="tooltiptext">Find and replace</span>
+                    </div>
+
+
+                    
+                    
+
+                </div>
+
+                <div class="font">
+                    <div class="font-1"> 
+                        <div class="dropdown">
+
+                            <div class="tooltip">
+                            <button id="dropdownButton">
+                            <span style="font-size: 15px;">Font Family</span>
+                            <span class="tooltiptext">Font Family</span>
+                            <i class="ri-arrow-down-s-fill"></i>
+                            </button>
+                        </div>
+                            <div class="dropdown-content">
+                                <p>Arial</p>
+                                <p>Arial</p>
+                                <p>Arial</p>
+                                <p>Arial</p>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="tooltip">
+                            <button id="dropdownButton">
+                                <span style="font-size: 15px;">Font Sizes</span>
+                                <span class="tooltiptext">Font Sizes</span>
+                            <i class="ri-arrow-down-s-fill"></i>
+                            </button>
+                        </div>
+                            <div class="dropdown-content">
+                                <p>8pt</p>
+                                <p>10pt</p>
+                                <p>12pt</p>
+                                <p>14pt</p>
+                                <p>18pt</p>
+                                <p>24pt</p>
+                                <p>36pt</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+                <div class="fullscreen">
+                    <div class="tooltip">
+                        <button>
+                            <i class="ri-fullscreen-fill"></i>
+                           </button>
+                 <span class="tooltiptext">Fullscreen</span>
+                    </div>
+                </div>
+               
+        </div>
+
+       
+
+        <div class="am">
+            <hr size="1">
+            <p class="last">Words: 0</p>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
